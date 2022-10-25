@@ -1,0 +1,206 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.4rem;
+}
+
+/* --------------background---------------------- */
+
+.bg{
+    height: 50vh;
+    width: 100vw;
+    background-color: #161616;
+    background-image: url("https://vejasp.abril.com.br/wp-content/uploads/2018/12/Pizza-dA-Queijaria-0012.jpg?quality=70&strip=info&resize=850,567");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+} 
+
+/* -----------------Header------------------------ */
+
+nav{
+    width: 100%;
+    padding-top: 2vh;
+    padding-right: 15vw;
+    padding-left: 15vw;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1;
+}
+
+nav.menu h2{
+    color: antiquewhite;
+    font-size: 4rem;
+    font-family: 'Allura', cursive;
+    font-weight: 400;
+}
+
+nav.menu{
+    position: fixed;
+    background-color: #000;
+    border-bottom: 0.1rem solid #e2d9e1;
+    height: 15vh;
+    width: 100%;
+}
+
+nav.menu img{
+    height: 30vh;
+    padding-top: 6vh;
+}
+
+a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+/* ---------------Main Home----------------------------- */
+
+.home{
+    height: 100vh;
+    width: 100%;
+    background-color: #161616;
+}
+
+.home h1{
+    color: antiquewhite;
+    font-size: 6rem;
+    font-family: 'Allura', cursive;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.content{
+    margin-left: 21.5rem;
+    margin-right: 21.5rem;
+    margin-top: 3rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+aside{
+    position: relative;
+}
+
+aside img{
+    width: 20vw;
+    border-radius: 3rem;
+    border: 0.1rem solid rgb(119, 118, 118) ;
+}
+
+.texto{
+    color: antiquewhite;
+    font-size: 1.6rem;
+    width: 60%;
+    text-align: justify;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.texto img{
+    width: 28vw;
+    border-style: groove;
+}
+
+
+/* --------------------main-menu------------------------ */
+
+.page2{
+    height: 240vh;
+    width: 100%;
+    background-color: #161616;
+    padding-top: 25vh;
+}
+
+.cardapio{
+    margin-left: 12vw;
+    margin-right: 12vw;
+}
+
+.content-menu{
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+}
+.item{
+    width: 80%;
+    padding-top: 1vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.cardapio h2{
+    color: antiquewhite;
+    font-size: 5rem;
+    margin: 2vh;
+    font-family: 'Allura', cursive;
+    font-weight: 400;
+    text-align: center;
+}
+
+.item img{
+    width: 15vw;
+    border: 0.1rem solid rgb(100, 93, 85);
+    border-radius: 1vh;
+}
+
+.descricao{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.descricao span{
+    color: antiquewhite;
+    font-size: 1.8rem;
+    padding-left: 2vw;
+}
+
+.descricao p{
+    color: antiquewhite;
+    font-size: 1.2rem;
+    padding-left: 2vw;
+    text-align: justify;
+}
+
+/* -------------------------Footer------------------ */
+
+footer{
+    height: 9rem;
+    padding:1rem;
+    padding-left: 15rem;
+    background-color: #000;
+    color: antiquewhite;
+
+    display: grid;
+    grid-template-areas: 
+    ". . . end1 . . end2 .";
+}
+
+footer .end1{
+    grid-area: end1;
+}
+
+footer .end2{
+    grid-area: end2;
+}
+
+footer ul{
+    list-style: none;
+}
