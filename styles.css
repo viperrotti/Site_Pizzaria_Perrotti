@@ -126,10 +126,10 @@ aside img{
 /* --------------------main-menu------------------------ */
 
 .page2{
-    height: 240vh;
+    height: 300vh;
     width: 100%;
     background-color: #161616;
-    padding-top: 25vh;
+    padding-top: 5vh;
 }
 
 .cardapio{
@@ -183,6 +183,44 @@ aside img{
     text-align: justify;
 }
 
+/* -------------------------Contact------------------ */
+
+.container-contacts{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column;
+    margin-top: 9vh;
+    padding-top: 5vh;
+}
+
+.forms{
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3rem;
+    border: 0.1rem solid rgb(119, 118, 118) ;
+    padding: 2vh
+}
+
+.forms form{
+    width: 40vw;
+    /* height: 60vh; */
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* font-size: 1.6vw; */
+}
+
+.forms input{
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+    font-size: 0.8vw;
+}
+
+
 /* -------------------------Footer------------------ */
 
 footer{
@@ -214,7 +252,7 @@ footer ul{
 @media(max-width: 800px) and (min-width: 360px){
     
     .bg{
-        height: 38vh;
+        height: 40vh;
     } 
 
     nav{
@@ -253,7 +291,7 @@ footer ul{
     /* ---------------Main Home----------------------------- */
 
     .home{
-        height: 190vh;
+        height: 600vh;
         display: flex;
         flex-flow: column;
         align-items: center;
@@ -274,7 +312,7 @@ footer ul{
 
 
     aside img{
-        width: 80vw;
+        width: 60vw;
     }
 
     .texto{
@@ -296,8 +334,8 @@ footer ul{
     /* --------------------main-menu------------------------ */
 
     .page2{
-        height: 390vh;
-        padding-top: 13vh;
+        height: 500vh;
+        /* padding-top: 13vh; */
     }
 
     .cardapio{
@@ -307,8 +345,8 @@ footer ul{
 
 
     .item{
-        width: 90%;
-        height: 50vh;
+        width: 70%;
+        height: 40vh;
         padding-top: 1vh;
 
         display: flex;
@@ -318,40 +356,79 @@ footer ul{
     }
 
     .cardapio h2{
-        font-size: 4rem;
+        font-size: 5rem;
         margin: 2vh;
         font-weight: 300;
         text-align: center;
     }
 
     .item img{
-        width: 85vw;
+        width: 45vw;
     }
 
     .descricao{
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        font-size: 1.8rem;
     }
 
     .descricao span{
-        font-size: 2.5rem;
+        font-size: 1.8rem;
         text-align: center;
     }
 
     .descricao p{
-        font-size: 1.7rem;
+        font-size: 1.3rem;
         padding-left: 0vw;
         text-align: center;
     }
+
+    /* -------------------------Contact------------------ */
+
+.container-contacts{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column;
+    margin-top: 3vh;
+    /* padding-top: 5vh; */
+}
+
+.forms{
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3rem;
+    border: 0.1rem solid rgb(119, 118, 118) ;
+    padding: 2vh
+}
+
+.forms form{
+    width: 40vw;
+    height: 40vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* font-size: 1.6vw; */
+}
+
+.forms input{
+    height: 4vh;
+    margin-top: 1vh;
+    /* margin-bottom: 3vh; */
+    font-size: 2vw;
+}
 
 
     /* -------------------------Footer------------------ */
 
     footer{
-        height: 10rem;
-        padding:1rem;
-        padding-left: 1rem;
+        height: 18rem;
+        /* padding:1rem; */
+        /* padding-left: 1rem; */
         font-size: 1rem;
 
         display: flex;
